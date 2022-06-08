@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,
+    500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- box icons --> 
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- css -->
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="header">
+        <div class="navbar container">
+            <div class="logo">
+                <img src="images/JBL-Logo.png" width="50px" >
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href=""><i class='bx bx-cart-alt'></i></a>
+                <a href="login.html"><i class='bx bxs-user'></i></a>
+            </div>
+            <img src="images/menu.png" class="menu-icon" 
+            onclick="menuToggle()">
+            
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Workout <br> A New Style!</h1>
+                <p>Success isn't always about greatness. It's about consistency. 
+                    Consistent <br> hard work ganins success. Greatness will come.
+                </p>
+                <a class="btn" href="">Xem Ngay &#8594; </a>
+            </div>
+            <div class="col-2">
+                <img src="images/logo-banner.png" alt="">
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+
+    <!-- featured categories -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.webp">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- featured product -->
+    <div class="small-container">
+        <h2 class="title">SẢN PHẨM NỔI BẬT</h2>
+        <div class="row">
+           
+            <div class="col-4">
+                <a href="products-detal.html">
+                <img src="images/12_JBLLIVE400BT.jpg">
+                <h4>JBL LIVE 400BT</h4>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>2.950.000 ₫</p>
+            </a>
+            </div>
+            <div class="col-4">
+                <img src="images/2_JBL_E55BT_KEY_RED.webp">
+                <h4>JBL E55BT </h4>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>$1.750.000 ₫</p>
+            </div>
+            <div class="col-4">
+                <img src="images/3_JBL_Quantum_400.png">
+                <h4>JBL QUANTUM 400</h4>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>2.490.000 ₫</p>
+            </div>
+            <div class="col-4">
+                <img src="images/4_JBL_TUNE220TWS.png" >
+                <h4>JBL TUNE220TWS</h4>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>710.000 ₫</p>
+            </div>
+        </div>
+        <h2 class="title">Featured Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/5_JBL_QUANTUM ONE.png" alt="">
+                <h4>JBL QUANTUM ONE</h4>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>1.999.000 ₫</p>
+            </div>
+            <div class="col-4">
+                <img src="images/6_JBL_JR 310BT.png" alt="">
+                <h4>JBL JR 310BT</h4>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>1.200.000 ₫</p>
+            </div>
+            <div class="col-4">
+                <img src="images/7_JBL-Endurance-Sprint.webp">
+                <h4>JBL Endurance Sprint</h4>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>3.499.000 ₫</p>
+            </div>
+            <div class="col-4">
+                <img src="images/8_JBL_LIVE650BTNC.webp" alt="">
+                <h4>JBL LIVE650BTNC</h4>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>1.890.000 ₫</p>
+            </div>
+            <div class="col-4">
+                <img src="images/9_JBL_ReflectMini.jpg" alt="">
+                <h4>JBL ReflectMini</h4>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>2.250.000 ₫</p>
+            </div>
+            <div class="col-4">
+                <img src="images/10_LiveProPlus.jpg" alt="">
+                <h4>JBL LIVE PRO+ TWS </h4>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>3.650.000 ₫</p>
+            </div>
+            <div class="col-4">
+                <img src="images/11_JBLUnderArmourFlash.png">
+                <h4>JBL UNDER ARMOUR FLASH</h4>
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                <p>2.950.000 ₫</p>
+            </div>
+            <div class="col-4">
+                <img src="images/1_JBL_Horizon.png" alt="">
+            <h4>JBL HORIZON</h4>
+            <div class="rating">
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star' ></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <p>3.590.000 ₫ </p>
+        </div>
+        </div>
+    </div>
+    <!-- offer -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/JBL_Endurance-SPRINT_Product-Image_Red_front-1605x1605px.webp" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Có sẵn độc quyền trên RedStore</p>
+                    <h1>JBL Endurance SPRINT</h1>
+                    <small>Với Tai nghe nhét trong không dây chống thấm nước Endurance SPRINT của JBL, 
+                    bạn có thể truyền phát âm thanh từ thiết bị di động tương thích với Bluetooth cho toàn bộ quá trình tập luyện của mình.
+                    </small> <br>
+                    <a class="btn" href="">Mua Ngay &#8594; </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testiomnial -->
+    <div class="testiomnial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class='bx bxs-quote-alt-left'></i>
+                    <p>Sản phẩm tuyệt vời đúng như mong đợi. Âm thanh nhẹ nhàng, trầm ấm, êm tai.</p>
+                        <div class="rating">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                        </div>
+                        <img src="images/dg1-batman.jpg" alt="">
+                        <h3>Batman</h3>
+                </div>
+                <div class="col-3">
+                    <i class='bx bxs-quote-alt-left'></i>
+                    <p>Thiết kế đơn giản, nhỏ gọn. Tính năng chống ồn được nâng cấp đạt hiệu quả chống ồn tốt.</p>
+                        <div class="rating">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <img src="images/dg3-harlay-quinn.webp" alt="">
+                        <h3>Harlay Quinn</h3>
+                        
+                </div>
+                <div class="col-3">
+                    <i class='bx bxs-quote-alt-left'></i>
+                    <p>Thiết kế chưa thực sự đẹp. Thiếu sự đa dạng về màu sắc tai nghe.</p>
+                        <div class="rating">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                            <i class='bx bx-star' ></i>
+                        </div>
+                        <img src="images/dg2-Spiderman.jpg" alt="">
+                        <h3>Spiderman</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- brands -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone </p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" >
+                        <img src="images/app-store.png" >
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/JBL-Logo.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and 
+                        Benefits of Sports Accessible to the Many. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Pose</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitte</li>
+                        <li>Instagram</li>
+                        <li>YouTuBe</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Ngo Thuy Dan</p>
+        </div>
+    </div>
+    <!-- js -->
+    <script>
+        var menuItems = document.getElementById("menuItems");
+        menuItems.style.maxHeight = "0px";
+        function menuToggle(){
+            if(menuItems.style.maxHeight == "0px" )
+                {
+                    menuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    menuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+</body>
+</html>
